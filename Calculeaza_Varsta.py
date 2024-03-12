@@ -4,7 +4,7 @@ from PIL import Image,ImageTk
 
 
 window=tk.Tk()
-window.geometry("400x600")
+window.geometry("400x500")
 window.title(" Calculeaza Varsta ")
 name = tk.Label(text = "Name")
 name.grid(column=0,row=1)
