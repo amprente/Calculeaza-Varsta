@@ -1,1 +1,1 @@
-# Age-Calculator, which is for testing purposes and sorting things out.
+# A very simple Age Calculator.
