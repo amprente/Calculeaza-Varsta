@@ -25,7 +25,7 @@ dateEntry.grid(column=1,row=4)
 
 def getInput():
     name=nameEntry.get()
-    monkey = Person(name,datetime.date(int(yearEntry.get()),int(monthEntry.get()),int(dateEntry.get())))
+    maimuta = Person(name,datetime.date(int(yearEntry.get()),int(monthEntry.get()),int(dateEntry.get())))
     textArea = tk.Text(master=window,height=10,width=35)
     textArea.grid(column=1,row=6)
     answer = " Hey {maimuta}!!! Tu ai {age} ani!!! ".format(maimuta=name, age=maimuta.age())
